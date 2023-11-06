@@ -4,7 +4,7 @@ import os
 from resume_parser import resumeparse
 from gunicorn.app.wsgiapp import run
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
 @app.route('/')
